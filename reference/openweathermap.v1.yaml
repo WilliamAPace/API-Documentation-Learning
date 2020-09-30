@@ -308,6 +308,6 @@ components:
   schemas: {}
   securitySchemes:
     app_id:
-      name: 161d44732edc2690d4e88488f53525c1
+      name: appid
       type: apiKey
       in: query

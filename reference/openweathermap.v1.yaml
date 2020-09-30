@@ -291,7 +291,17 @@ paths:
           content:
             application/json:
               schema:
+                description: ''
                 type: object
+                properties:
+                  $ref:
+                    type: string
+                    minLength: 1
+                required:
+                  - $ref
+              examples:
+                example-1:
+                  value: {}
 components:
   schemas: {}
   securitySchemes:

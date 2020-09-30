@@ -302,6 +302,8 @@ paths:
               examples:
                 example-1:
                   value: {}
+      security:
+        - app_id: []
 components:
   schemas: {}
   securitySchemes:

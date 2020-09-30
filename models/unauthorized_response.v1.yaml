@@ -1,0 +1,17 @@
+title: unauthorized_response
+type: object
+properties:
+  id:
+    type: string
+  cod:
+    type: string
+  message:
+    type: string
+required:
+  - cod
+  - message
+x-examples:
+  example-1:
+    id: string
+    cod: string
+    message: string

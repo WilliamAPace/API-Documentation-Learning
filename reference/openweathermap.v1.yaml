@@ -286,6 +286,12 @@ paths:
                   - id
                   - name
                   - cod
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                type: object
 components:
   schemas: {}
   securitySchemes:
